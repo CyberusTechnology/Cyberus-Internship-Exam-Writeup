@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: look-at-my-body
+    build: .
+    ports:
+      - "50001:5000"
