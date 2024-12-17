@@ -1,0 +1,8 @@
+services:
+  admin:
+    container_name: admin
+    build: .
+    ports:
+      - 20003:5000
+    privileged: true
+RUN chmod +x /srv/app/runRUN chmod +x /srv/app/run

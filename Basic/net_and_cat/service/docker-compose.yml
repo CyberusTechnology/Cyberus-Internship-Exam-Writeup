@@ -1,0 +1,8 @@
+services:
+  net-and-cat:
+    container_name: net-and-cat
+    build: .
+    ports:
+      - 20001:5000
+    privileged: true
+RUN chmod +x /srv/app/runRUN chmod +x /srv/app/run

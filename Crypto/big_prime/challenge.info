@@ -1,0 +1,11 @@
+Title: Big prime
+Description: Generating 2 prime numbers took too long, so I decided to use just one big prime.
+Category: Cryptography
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{eul3r_7071en7_func710n}
+
+Learning objective:
+- Basic RSA
+- Euler's totient function

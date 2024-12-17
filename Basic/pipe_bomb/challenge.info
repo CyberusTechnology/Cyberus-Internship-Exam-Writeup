@@ -1,0 +1,11 @@
+Title: pipe bomb
+Description: Miku found pipe bomb, what could go wrong? { server_addr }
+Category: Beginner
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{c0ngr4tz_0n_d3fu3s1ng_th3_p1p3_b0mb_y0u_ar3_p1p3_m4st3r}
+
+Learning objective:
+- netcat
+- piping command output to do something useful

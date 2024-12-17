@@ -1,0 +1,11 @@
+Title: Password cracker
+Description: Can you find the password?
+Category: Beginner
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{wh4t_4_n1c3_d4y_t0_cr4ck_4_p4ssw0rd}
+
+Learning objective:
+- basic python reverse engineering
+- ascii

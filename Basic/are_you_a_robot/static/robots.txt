@@ -1,0 +1,2 @@
+You found me! I guess you are robot, here is your reward
+flag{1_am_a_r0b0tz_6265b22b66502d70d5f004f08238ac3c}

@@ -1,0 +1,10 @@
+Title: net and cat
+Description: cat you read the flag? { server_addr }
+Category: Beginner
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{n3tc4t_1s_v3ry_us3ful}
+
+Learning objective:
+- netcat

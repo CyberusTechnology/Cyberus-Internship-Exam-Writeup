@@ -1,0 +1,10 @@
+Title: Admin
+Description: Only admin is allow to read the flag, can you read it somehow?
+Category: Beginner
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{cl4ss1c_v4r14bl3_0v3rfl0w}
+
+Learning objective:
+- Basic buffer overflow

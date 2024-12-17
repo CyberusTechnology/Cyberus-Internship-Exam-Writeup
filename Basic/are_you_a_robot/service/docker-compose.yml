@@ -1,0 +1,7 @@
+services:
+  are_you_a_robot:
+    container_name: are_you_a_robot
+    build: .
+    ports:
+      - 20002:3000
+RUN chmod +x /srv/app/runRUN chmod +x /srv/app/run

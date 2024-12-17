@@ -1,0 +1,8 @@
+services:
+  pipe-bomb:
+    container_name: pipe-bomb
+    build: .
+    ports:
+      - 20000:5000
+    privileged: true
+RUN chmod +x /srv/app/runRUN chmod +x /srv/app/run

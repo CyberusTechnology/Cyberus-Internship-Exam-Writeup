@@ -1,0 +1,10 @@
+Title: Are you a robot?
+Description: I heard you are a robot, prove it! { server_addr }
+Category: Beginner
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{1_am_a_r0b0tz_6265b22b66502d70d5f004f08238ac3c}
+
+Learning objective:
+- robots.txt

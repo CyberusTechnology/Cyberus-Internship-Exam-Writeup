@@ -1,0 +1,10 @@
+Title: asXORciative
+Description: Can you guess my secret key?
+Category: Cryptography
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{x0r_pr0p3rt1es_ar3_n1c3_ar3nt_th3y}
+
+Learning objective:
+- XOR properties
