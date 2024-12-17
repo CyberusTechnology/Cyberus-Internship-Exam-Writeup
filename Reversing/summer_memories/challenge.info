@@ -1,0 +1,10 @@
+Title: Summer memories
+Description: Can you recover my memories?
+Category: Reversing
+Author: momiji
+Difficulty: Medium
+
+Flag: flag{big_blue_sky_and_sparkling_sun}
+
+Learning objective:
+- Basic ELF reverse engineering

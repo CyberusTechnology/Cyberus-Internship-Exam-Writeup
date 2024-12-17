@@ -1,0 +1,7 @@
+services:
+  read-flag:
+    container_name: read-flag
+    build: .
+    ports:
+      - 13338:5000
+    privileged: true

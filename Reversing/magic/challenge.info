@@ -1,0 +1,12 @@
+Title: Magic
+Description: Magic encryption, or is it?
+Category: Reversing
+Author: momiji
+Difficulty: Hard
+
+Flag: flag{s4nkyuu_z3_m4g1c_s0lv3r}
+
+Learning objective:
+- fixed seed
+- reverse engineering an algorithm
+- solving puzzle with z3 solver

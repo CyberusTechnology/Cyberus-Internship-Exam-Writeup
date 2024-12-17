@@ -1,0 +1,12 @@
+Title: Reversed
+Description: A service to reverse your string!, for some reason. { server_addr }
+Category: Pwnable
+Author: momiji
+Difficulty: Medium
+
+Flag: flag{cr4zy_s7r1ng_73rm1n473d}
+
+Learning objective:
+- How strlen function check for length.
+- How to bypass strlen with controlled input.
+- Basic ret2win buffer overflow attack.

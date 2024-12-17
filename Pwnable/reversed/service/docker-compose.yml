@@ -1,0 +1,7 @@
+services:
+  reversed:
+    container_name: reversed
+    build: .
+    ports:
+      - 13337:5000
+    privileged: true

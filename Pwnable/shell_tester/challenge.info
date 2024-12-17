@@ -1,0 +1,12 @@
+Title: Shell Tester
+Description: Come and test our shell if you can. { server_addr }
+Category: Pwnable
+Author: momiji
+Difficulty: Hard
+
+Flag: flag{addr3ss_l34k3r_d3t3ct3d}
+
+Learning objective:
+- Leaking addresses using format string
+- ret2libc
+- MOVAPS stack alignment problem

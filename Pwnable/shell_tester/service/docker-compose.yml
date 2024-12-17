@@ -1,0 +1,7 @@
+services:
+  shell_tester:
+    container_name: shell_tester
+    build: .
+    ports:
+      - 13339:5000
+    privileged: true

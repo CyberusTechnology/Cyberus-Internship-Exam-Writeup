@@ -1,0 +1,10 @@
+Title: read-flag
+Description: Hey, if you want the flag, talk to me nicely and I might give it to you. you can talk to me here { server_addr }
+Category: Pwnable
+Author: momiji
+Difficulty: Easy
+
+Flag: flag{b4by_fm7s7r_ju57_f0r_y0u}
+
+Learning objective:
+- The basic of format-string vulnerability.
