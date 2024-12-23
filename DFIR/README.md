@@ -50,7 +50,6 @@
 # Crazy Text 
 Just change it to find out.
 
-
 When I read file "Error.txt", hmmm , It's Look like Morse Code, binary? But, it's QR code.
 ![ae10b381d3265b7159252e2f58a8950b.png](https://raw.githubusercontent.com/CyberusTechnology/Cyberus-Internship-Exam-Writeup/refs/heads/2024/DFIR/_resources/ae10b381d3265b7159252e2f58a8950b.png)
 
@@ -84,3 +83,54 @@ Something Wrong! , QR It looks strange.
 Next, try reverse command .
 
 ![707aad839cbb6ab8c36a0a2bab677d36.png](https://raw.githubusercontent.com/CyberusTechnology/Cyberus-Internship-Exam-Writeup/refs/heads/2024/DFIR/_resources/707aad839cbb6ab8c36a0a2bab677d36.png)
+
+# Awareness is a key (1)
+**Description:** Toby, an IT support from financial department reported that his computer behaves abnormal and saw many files created in his laptop. You discovered that this is True Positive and you decided to investigate further. Your task is to find the root cause, including initial access subtechnique ID based on the famous frameworks and find the source of attack.
+
+https://www.dropbox.com/scl/fi/cbxt864842q35zjew80rt/EVIDENCE-01.zip?rlkey=i1auxkweqmn7lggor2k8qmekw&st=fqctnei7&dl=0
+
+Flag Format: `flag{<sub-techniqueID>_IPAddr}`
+
+**Category:** DFIR
+**Author:** F0r3ns1c N1nj4
+**Difficulty:** Easy
+
+**Solution:**
+
+This challenge required analyst to look at the event log, especially, Security logs which give all information about login attempts. Because we were hunting for an Initial Access Tactic, by checking logon attempt would be a great foothold.
+
+
+Afterwards, you will be able to map behaviour found within the system with MITRE ATT&CK framework (The behavior we were able to detect is brute-forcing the valid account, therefore, the sub-technique would be TA1078.003) and found the Source IP Address of an attacker.
+
+**Flag:** flag{T1078.003_192.168.140.130}
+
+# Awareness is a key (2)
+**Description:** After you got the initial access and source of attack, your next task is to find if there are any payloads that might be downloaded to the compromised system. Can you identify if the payload has been downloaded or not (Yes or No), if so please identify the name of payload file.
+
+Flag Format: `flag{<yes or no>_<payload_filename>}`
+
+**Category:** DFIR
+**Author:** F0r3ns1c N1nj4
+**Difficulty:** Easy
+
+**Solution:**
+From Sysmon log, we can look for Event ID of 1 (Process Creation). From there, you will get the abnormal process.
+
+Flag: `flag{yes_system-health-check.exe}`
+
+# Awareness is a key (3)
+**Description:** Can you find what is the name of payload that was attempted to execute by the attacker? The answer would be the name of the payload tool.
+
+**Note:** Answer is case-insensitive =)
+
+**Flag Format:** `flag{xxxxx}`
+
+**Category:** DFIR
+**Author:** F0r3ns1c N1nj4
+**Difficulty:** Easy 
+
+**Solution:**
+
+By checking, windows defenders event log, you will get the answer for this question.
+
+Flag: `flag{meterpreter}`
