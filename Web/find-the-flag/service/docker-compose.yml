@@ -1,0 +1,6 @@
+services:
+  find-the-flags:
+    container_name: find-the-flag
+    build: .
+    ports:
+      - 7777:80
