@@ -1,0 +1,7 @@
+services:
+  flag_shop:
+    container_name: flag_shop
+    build: .
+    ports:
+      - 8888:5000
+    privileged: true

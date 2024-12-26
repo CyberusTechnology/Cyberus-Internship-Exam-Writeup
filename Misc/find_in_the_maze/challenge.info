@@ -1,0 +1,10 @@
+Title: Find in the maze
+Description: Find flag in directories
+Category: Misc
+Author: xz3r0t
+Difficulty: Easy
+
+Flag: flag{0507917f9881ca2af4f819fd0da5aca8c1aaf83b}
+
+Objective:
+- Knowing how to use commands in finding files in many directories

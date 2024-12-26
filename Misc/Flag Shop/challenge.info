@@ -1,0 +1,11 @@
+Title: Flag Shop
+Description: There's a shop where you could find your destination. If it's hard to find the completed one, the half one is fine. { server_address }
+Category: Misc
+Author: xz3r0t
+Difficulty: Easy
+
+Flag: flag{8608df0c995c66d1303d4d27059b77bbddf44075}
+
+Learning objective:
+- Integer Overflow
+- How to interact with server using socket
