@@ -1,0 +1,13 @@
+Title: From Inside
+
+Description: Have you ever heard about forbidden technique that ancient people used to hack the website? I heard that they can send a request from outside to inside(internal) through the same hole as a normal request to the server... Hmmm, This is so interesting...
+
+Category: Web
+Author: Jockky
+Difficulty: Easy
+
+Flag: flag{SSRF_1S_S0_E4SY_R1GHT!?_171124}
+
+Learning objective:
+	- Basic Web
+	- SSRF

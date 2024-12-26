@@ -1,0 +1,8 @@
+services:
+  cyberus-intern-web-1:
+    build: .
+    image: cyberus-intern-web-1
+    container_name: cyberus-intern-web-1
+    restart: always
+    ports:
+      - "3333:80"
